@@ -13,4 +13,14 @@ namespace MatrixLib {
 			return Multiply(A, r1, c1, B, r2, c2);
 		}
 	}
+	int ** MatrixLib::Class1::MatrixAdd(int ** A, int ** B, int r, int c)
+	{
+		return MatrixAdd(A, B, r, c);
+	}
+
+	int ** MatrixLib::Class1::MatrixSub(int ** A, int ** B, int r, int c)
+	{
+		return MatrixSub(A, B, r, c);
+	}
+
 }
